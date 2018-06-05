@@ -30,6 +30,7 @@ export class ParkMapPage {
      
   });
 
+  
 }
 initializeMap() {
   //let image = 'assets/img/nps_arrowhead.png';
