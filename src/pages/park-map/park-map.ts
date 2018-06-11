@@ -66,7 +66,7 @@ this.parkData.getParks().then(theResult => {
  google.maps.event.addListener(parkMarker, 'click', () => {
   let selectedMarker:any = parkMarker;
  
-  this.navctrl.push ("ParkDetailspage", {ParkData: selectedMarker.ParkData});
+  this.navctrl.push ("ParkDetailsPage", {parkData: selectedMarker.parkData});
   //});
 
 //}

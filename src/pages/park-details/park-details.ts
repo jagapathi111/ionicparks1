@@ -13,7 +13,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   selector: 'page-park-details',
   templateUrl: 'park-details.html',
 })
-export class ParkDetailsPage {
+export class ParkDetailsPage { 
   parkInfo: Object;
   constructor(public navCtrl: NavController, public navParams: NavParams) {
 

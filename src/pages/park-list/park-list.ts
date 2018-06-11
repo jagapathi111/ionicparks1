@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 //import { ParkData } from '../../providers/park-data';
 import { ParkData} from '../../app/providers/park-data';
-import { ParkDetailsPage } from '../park-details/park-details';
+// import { ParkDetailsPage } from '../park-details/park-details';
 import { Park } from '../../app/interfaces/park';
 
 
@@ -21,7 +21,7 @@ export class ParkListPage {
   })
   }
   goParkDetails(theParkData) {
-    this.navCtrl.push(ParkDetailsPage, { parkData: theParkData });
+    this.navCtrl.push("ParkDetailsPage", { parkData: theParkData });
   }
 
   getParks(event) {

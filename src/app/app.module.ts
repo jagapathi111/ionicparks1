@@ -8,7 +8,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { ParkListPage } from '../pages/park-list/park-list';
 import { ParkMapPage } from '../pages/park-map/park-map';
 import { TabsPage } from '../pages/tabs/tabs';
-import { ParkDetailsPage } from '../pages/park-details/park-details'; 
+ //import { ParkDetailsPage } from '../pages/park-details/park-details'; 
 
 @NgModule({
   declarations: [
@@ -16,7 +16,7 @@ import { ParkDetailsPage } from '../pages/park-details/park-details';
     ParkListPage,
     ParkMapPage,
     TabsPage,
-    ParkDetailsPage
+    //ParkDetailsPage
   ],
   imports: [
     BrowserModule,
@@ -29,7 +29,7 @@ import { ParkDetailsPage } from '../pages/park-details/park-details';
     ParkListPage,
     ParkMapPage,
     TabsPage,
-    ParkDetailsPage,
+    // ParkDetailsPage,
   ],
   providers: [
     StatusBar,
