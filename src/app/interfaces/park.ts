@@ -8,5 +8,5 @@ export interface Park {
     image: string;
     state: string;
     data: string;
-   }
+}
    

@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+//reimport { reviewpage } from '../pages/review/review ';
+import { reviewPage } from '../review/review';
 
 /**
  * Generated class for the ParkDetailsPage page.
@@ -21,5 +23,9 @@ export class ParkDetailsPage {
     console.log(this.parkInfo);
    
   }
+
+  parkratings(){
+    this.navCtrl .setRoot( reviewPage );
+    }
 
 }
